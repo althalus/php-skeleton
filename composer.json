@@ -1,0 +1,48 @@
+{
+    "name": "jste/php-skeleton",
+    "description": "A php framework for getting off the ground quickly",
+    "keywords": [],
+    "homepage": "http://github.com/althalus/php-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Steward",
+            "email": "justin@justinsteward.com",
+            "homepage": "http://justinsteward.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/javiervd/idiorm"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/javiervd/paris"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "phorms/phorms",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/jordanlev/phorms.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "files": ["phorms.php"]
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "slim/slim": "1.6.*",
+        "slim/extras": "dev-release-1.0.3",
+        "twig/twig": ">=1.8.0,<2.0-dev",
+        "javiervd/idiorm": "dev-master",
+        "javiervd/paris": "dev-master",
+        "phorms/phorms": "dev-master"
+    }
+}
