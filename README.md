@@ -18,3 +18,7 @@ If you haven't already, install composer:
 
 
 Done! Next step, do something that hasn't been done before!
+
+## TODO
+
+Include a version of Twitter Bootstrap and a sample template using it.
